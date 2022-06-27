@@ -1,12 +1,12 @@
 <template>
     <v-app>
-        <v-navigation-drawer app>
-            <!-- -->
-        </v-navigation-drawer>
 
         <Navbar />
 
-        
+
+        <v-navigation-drawer app>
+            <!-- -->
+        </v-navigation-drawer>
         <!-- Sizes your content based upon application components -->
         <v-main>
 
