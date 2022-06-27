@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import PaginaBase from './layout/Base.vue';
+import PaginaBase from './components/layout/Base.vue';
 
 
 export default {

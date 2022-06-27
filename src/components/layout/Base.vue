@@ -1,13 +1,12 @@
-  <template>
+<template>
     <v-app>
         <v-navigation-drawer app>
             <!-- -->
         </v-navigation-drawer>
 
-        <v-app-bar app>
-            <!-- -->
-        </v-app-bar>
+        <Navbar />
 
+        
         <!-- Sizes your content based upon application components -->
         <v-main>
 
@@ -26,16 +25,17 @@
 
 </template>
 
-    <script>
+<script>
+    import Navbar from './Navbar.vue';
     export default {
         name: 'App',
-    
+
         components: {
+            Navbar
         },
-    
+
         data: () => ({
             //
         }),
     };
-    
-    </script>
+</script>
