@@ -4,38 +4,33 @@
         <Navegador />
         <Navbar />
 
-        <!-- Sizes your content based upon application components -->
         <v-main>
-
-            <!-- Provides the application the proper gutter -->
             <v-container fluid>
-
-                <!-- If using vue-router -->
                 <router-view></router-view>
             </v-container>
         </v-main>
 
-        <v-footer app>
-            <!-- -->
-        </v-footer>
+        <Footer />
     </v-app>
 
 </template>
 
 <script>
-    import Navbar from './Navbar.vue';
-    import Navegador from './Navegador.vue';
+import Navbar from './Navbar.vue';
+import Navegador from './Navegador.vue';
+import Footer from './Footer.vue';
 
-    export default {
-        name: 'App',
+export default {
+    name: 'App',
 
-        components: {
-            Navbar,
-            Navegador
-        },
+    components: {
+        Navbar,
+        Navegador,
+        Footer
+    },
 
-        data: () => ({
-            //
-        }),
-    };
+    data: () => ({
+        //
+    }),
+};
 </script>

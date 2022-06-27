@@ -5,7 +5,6 @@
 <script>
 import PaginaBase from './components/layout/Base.vue';
 
-
 export default {
   name: 'App',
 
