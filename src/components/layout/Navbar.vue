@@ -3,7 +3,7 @@
         <v-app-bar app color="deep-purple accent-4" dense dark>
             <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-            <v-toolbar-title>asdasd</v-toolbar-title>
+            <v-toolbar-title>TITULO</v-toolbar-title>
 
             <v-spacer></v-spacer>
 
